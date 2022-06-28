@@ -29,7 +29,7 @@ function App() {
         : new ThirdwebSDK("mumbai");
 
       const mk = sdk.getMarketplace(
-        "0x2f50Dd49dD0b721f08F53b417C58587df5A7188f"
+        "0xDbd85A06a182E78Dcbf191eFcDF088334D1F8878"
       );
 
       setMarketplace(mk);

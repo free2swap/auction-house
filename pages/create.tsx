@@ -17,7 +17,7 @@ import initMagic from "../lib/initMagic";
 import { ethers } from "ethers";
 import styles from "../styles/Theme.module.css";
 
-const nftDropAddress = "0x322067594DBCE69A9a9711BC393440aA5e3Aaca1";
+const nftDropAddress = "0xB87457DC2b1802f3C0BE8d408Cbf907d242070f8";
 
 const Create: NextPage = () => {
   // Next JS Router hook to redirect to other pages
@@ -54,7 +54,7 @@ const Create: NextPage = () => {
         : new ThirdwebSDK("mumbai");
 
       const mk = sdk.getMarketplace(
-        "0x2f50Dd49dD0b721f08F53b417C58587df5A7188f"
+        "0xDbd85A06a182E78Dcbf191eFcDF088334D1F8878"
       );
 
       setMarketplace(mk);
@@ -114,7 +114,7 @@ const Create: NextPage = () => {
       : new ThirdwebSDK("mumbai");
 
     const nftDrop = sdk.getNFTDrop(
-      "0x322067594DBCE69A9a9711BC393440aA5e3Aaca1"
+      "0xB87457DC2b1802f3C0BE8d408Cbf907d242070f8"
     );
 
     console.log(nftDrop);
